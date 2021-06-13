@@ -1,0 +1,19 @@
+[2021-06-10 20:40:29.026] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-06-10 20:46:11.303] [sharedprocess] [info] Installing extension: vsciot-vscode.vscode-arduino
+[2021-06-10 20:46:14.080] [sharedprocess] [info] Downloaded extension: vsciot-vscode.vscode-arduino undefined
+[2021-06-10 20:46:14.848] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.92f4fb28-8c56-449e-b318-4194fc20cbf3: vsciot-vscode.vscode-arduino
+[2021-06-10 20:46:14.860] [sharedprocess] [info] Renamed to /root/.vscode/extensions/vsciot-vscode.vscode-arduino-0.4.2
+[2021-06-10 20:46:14.862] [sharedprocess] [info] Installation completed. vsciot-vscode.vscode-arduino
+[2021-06-10 20:46:15.167] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2021-06-10 20:46:18.285] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools undefined
+[2021-06-10 20:46:18.627] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.314fa0b7-66ed-4c17-9726-5c2619edffce: ms-vscode.cpptools
+[2021-06-10 20:46:18.639] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-vscode.cpptools-1.4.1
+[2021-06-10 20:46:18.642] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2021-06-10 20:46:18.646] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2021-06-10 20:46:18.649] [sharedprocess] [info] Extensions installed successfully: vsciot-vscode.vscode-arduino
+[2021-06-10 20:48:15.194] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2021-06-10 20:48:15.203] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools undefined
+[2021-06-10 20:48:15.602] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.2240f863-69f7-4165-908d-1ae5f53786ae: ms-vscode.cpptools
+[2021-06-10 20:48:15.615] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-vscode.cpptools-1.4.1
+[2021-06-10 20:48:15.619] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2021-06-10 20:48:15.625] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools

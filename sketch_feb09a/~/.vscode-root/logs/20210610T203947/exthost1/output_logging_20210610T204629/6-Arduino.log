@@ -1,0 +1,953 @@
+[Starting] Analyzing sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 248880          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1556  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1048  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25792 )         - zeroed variables      (global, static) in RAM/HEAP 
+IntelliSense configuration updated. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Analyzing sketch 'sketch_feb09a.ino'
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 248880          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1556  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1048  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25792 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 283872 bytes to 208054...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (15 %)
+Writing at 0x00008000... (23 %)
+Writing at 0x0000c000... (30 %)
+Writing at 0x00010000... (38 %)
+Writing at 0x00014000... (46 %)
+Writing at 0x00018000... (53 %)
+Writing at 0x0001c000... (61 %)
+Writing at 0x00020000... (69 %)
+Writing at 0x00024000... (76 %)
+Writing at 0x00028000... (84 %)
+Writing at 0x0002c000... (92 %)
+Writing at 0x00030000... (100 %)
+Wrote 283872 bytes (208054 compressed) at 0x00000000 in 4.7 seconds (effective 483.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
+[Starting] Update library index files...
+Picked up JAVA_TOOL_OPTIONS: 
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Downloading libraries index... 
+2021-06-10T17:54:31.012Z INFO c.a.u.n.FileDownloaderCache:92 [main] Cache folder /root/.arduino15/cache
+2021-06-10T17:54:31.032Z INFO c.a.u.n.FileDownloaderCache:112 [main] Number of file already in the cache 3
+2021-06-10T17:54:31.045Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=CF604C5757BF4799
+2021-06-10T17:54:31.058Z INFO c.a.u.n.FileDownloaderCache:149 [main] Get file cached is expire true, exist false, info FileCached{eTag='null', lastETag='null', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.gz', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz', md5='null', createdAt='2021-06-10T20:54:31.045', cacheControl=null} 
+2021-06-10T17:54:31.062Z INFO c.a.u.n.HttpConnectionManager:153 [main] Connect to https://downloads.arduino.cc/libraries/library_index.json.gz, method=HEAD, request id=7282B89021E1492C
+2021-06-10T17:54:31.290Z INFO c.a.u.n.HttpConnectionManager:157 [main] Request complete URL="https://downloads.arduino.cc/libraries/library_index.json.gz", method=HEAD, response code=206, request id=7282B89021E1492C, headers={null=[HTTP/1.1 206 Partial Content], Server=[cloudflare], Content-Range=[bytes 0-1874699/1874700], Last-Modified=[Thu, 10 Jun 2021 16:59:25 GMT], X-Amz-Cf-Id=[hcPCl_0nHSm1zgsLfqj9QphjdxQbFheCg-Gx8Nh9RIuKm35IwX9irA==], Content-Length=[1874700], Age=[3297], cf-request-id=[0a98a8c8910000625f3d348000000001], Content-Type=[application/json], X-Cache=[Miss from cloudfront], CF-Ray=[65d47720eb7a625f-OTP], X-Amz-Cf-Pop=[OTP50-C1], Connection=[keep-alive], x-amz-version-id=[rLn_dFtihtDY0sZUWVU2Jl28vVJyoZjp], Date=[Thu, 10 Jun 2021 17:54:31 GMT], Via=[1.1 de948a999d9db4a22223298941e118f6.cloudfront.net (CloudFront)], x-amz-replication-status=[PENDING], CF-Cache-Status=[HIT], Cache-Control=[public, max-age=14400], ETag=["4335f9397e82e8e42d50b7560ed279cb"], Vary=[Accept-Encoding], x-amz-request-id=[E5N1JR0PN6BVY0X1], Expires=[Thu, 10 Jun 2021 21:54:31 GMT], alt-svc=[h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400], x-amz-id-2=[n0UZPn42eslJUr5vVqOi6b8PGhHa0ovQ3uOKy+YNVYhTSJ/wOOATWF585Z6Q2c3vvNJGKCGdkkY=], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]}
+2021-06-10T17:54:31.292Z INFO c.a.u.n.FileDownloaderCache:160 [main] Update cached info of https://downloads.arduino.cc/libraries/library_index.json.gz, createdAt 2021-06-10T20:54:31.045, previous eTag null, last eTag 4335f9397e82e8e42d50b7560ed279cb, cache control header CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false} 
+2021-06-10T17:54:31.337Z INFO c.a.u.n.FileDownloaderCache:226 [main] Update cache file info in /root/.arduino15/cache/cache.json, number of cached files is 4
+2021-06-10T17:54:31.348Z INFO c.a.u.n.FileDownloader:213 [main] The file in the cache is not in the path or the md5 validation failed: path=/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz, file exist=false, md5 validation=false
+2021-06-10T17:54:31.348Z INFO c.a.u.n.FileDownloader:221 [main] The file is change FileCached{eTag='null', lastETag='4335f9397e82e8e42d50b7560ed279cb', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.gz', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz', md5='null', createdAt='2021-06-10T20:54:31.293', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}}
+2021-06-10T17:54:31.353Z INFO c.a.u.n.HttpConnectionManager:153 [main] Connect to https://downloads.arduino.cc/libraries/library_index.json.gz, method=GET, request id=0BF0916130974188
+2021-06-10T17:54:31.447Z INFO c.a.u.n.HttpConnectionManager:157 [main] Request complete URL="https://downloads.arduino.cc/libraries/library_index.json.gz", method=GET, response code=206, request id=0BF0916130974188, headers={null=[HTTP/1.1 206 Partial Content], Server=[cloudflare], Content-Range=[bytes 0-1874699/1874700], Last-Modified=[Thu, 10 Jun 2021 16:59:25 GMT], X-Amz-Cf-Id=[hcPCl_0nHSm1zgsLfqj9QphjdxQbFheCg-Gx8Nh9RIuKm35IwX9irA==], Content-Length=[1874700], Age=[3297], cf-request-id=[0a98a8c9310000625fbe853000000001], Content-Type=[application/json], X-Cache=[Miss from cloudfront], CF-Ray=[65d47721ee40625f-OTP], X-Amz-Cf-Pop=[OTP50-C1], Connection=[keep-alive], x-amz-version-id=[rLn_dFtihtDY0sZUWVU2Jl28vVJyoZjp], Date=[Thu, 10 Jun 2021 17:54:31 GMT], Via=[1.1 de948a999d9db4a22223298941e118f6.cloudfront.net (CloudFront)], x-amz-replication-status=[PENDING], CF-Cache-Status=[HIT], Cache-Control=[public, max-age=14400], ETag=["4335f9397e82e8e42d50b7560ed279cb"], Vary=[Accept-Encoding], x-amz-request-id=[E5N1JR0PN6BVY0X1], Expires=[Thu, 10 Jun 2021 21:54:31 GMT], alt-svc=[h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400], x-amz-id-2=[n0UZPn42eslJUr5vVqOi6b8PGhHa0ovQ3uOKy+YNVYhTSJ/wOOATWF585Z6Q2c3vvNJGKCGdkkY=], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]}
+Downloading libraries index... Downloaded 0kb of 1,874kb.
+Downloading libraries index... Downloaded 57kb of 1,874kb.
+Downloading libraries index... Downloaded 114kb of 1,874kb.
+Downloading libraries index... Downloaded 171kb of 1,874kb.
+Downloading libraries index... Downloaded 228kb of 1,874kb.
+Downloading libraries index... Downloaded 287kb of 1,874kb.
+Downloading libraries index... Downloaded 353kb of 1,874kb.
+Downloading libraries index... Downloaded 418kb of 1,874kb.
+Downloading libraries index... Downloaded 477kb of 1,874kb.
+Downloading libraries index... Downloaded 536kb of 1,874kb.
+Downloading libraries index... Downloaded 602kb of 1,874kb.
+Downloading libraries index... Downloaded 667kb of 1,874kb.
+Downloading libraries index... Downloaded 733kb of 1,874kb.
+2021-06-10T17:54:31.641Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=CF604C5757BF4799, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Thu, 10 Jun 2021 17:54:31 GMT]}
+2021-06-10T17:54:31.642Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Downloading libraries index... Downloaded 798kb of 1,874kb.
+Downloading libraries index... Downloaded 864kb of 1,874kb.
+Downloading libraries index... Downloaded 929kb of 1,874kb.
+Downloading libraries index... Downloaded 995kb of 1,874kb.
+Downloading libraries index... Downloaded 1,001kb of 1,874kb.
+Downloading libraries index... Downloaded 1,061kb of 1,874kb.
+Downloading libraries index... Downloaded 1,122kb of 1,874kb.
+Downloading libraries index... Downloaded 1,188kb of 1,874kb.
+Downloading libraries index... Downloaded 1,253kb of 1,874kb.
+Downloading libraries index... Downloaded 1,319kb of 1,874kb.
+Downloading libraries index... Downloaded 1,384kb of 1,874kb.
+Downloading libraries index... Downloaded 1,450kb of 1,874kb.
+Downloading libraries index... Downloaded 1,515kb of 1,874kb.
+Downloading libraries index... Downloaded 1,581kb of 1,874kb.
+Downloading libraries index... Downloaded 1,646kb of 1,874kb.
+Downloading libraries index... Downloaded 1,712kb of 1,874kb.
+Downloading libraries index... Downloaded 1,777kb of 1,874kb.
+Downloading libraries index... Downloaded 1,843kb of 1,874kb.
+2021-06-10T17:54:31.803Z INFO c.a.u.n.FileDownloaderCache:343 [main] Update cache file: FileCached{eTag='4335f9397e82e8e42d50b7560ed279cb', lastETag='4335f9397e82e8e42d50b7560ed279cb', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.gz', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz', md5='MD5:4335f9397e82e8e42d50b7560ed279cb', createdAt='2021-06-10T20:54:31.803', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}}
+2021-06-10T17:54:31.808Z INFO c.a.u.n.FileDownloaderCache:226 [main] Update cache file info in /root/.arduino15/cache/cache.json, number of cached files is 4
+Downloading libraries index... 
+2021-06-10T17:54:31.917Z INFO c.a.u.n.FileDownloaderCache:149 [main] Get file cached is expire true, exist false, info FileCached{eTag='null', lastETag='null', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.sig', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig', md5='null', createdAt='2021-06-10T20:54:31.916', cacheControl=null} 
+2021-06-10T17:54:31.918Z INFO c.a.u.n.HttpConnectionManager:153 [main] Connect to https://downloads.arduino.cc/libraries/library_index.json.sig, method=HEAD, request id=3B2891E981564B17
+2021-06-10T17:54:31.989Z INFO c.a.u.n.HttpConnectionManager:157 [main] Request complete URL="https://downloads.arduino.cc/libraries/library_index.json.sig", method=HEAD, response code=206, request id=3B2891E981564B17, headers={null=[HTTP/1.1 206 Partial Content], Server=[cloudflare], Content-Range=[bytes 0-542/543], Last-Modified=[Thu, 10 Jun 2021 16:59:25 GMT], X-Amz-Cf-Id=[xhM4lchGQPOjfYSMieBBntc-KHZ6Gno2eWWF7p-HbG-ptGQnKumB2Q==], Content-Length=[543], Age=[3295], cf-request-id=[0a98a8cb6c0000625f122c0000000001], Content-Type=[application/pgp-signature], X-Cache=[Miss from cloudfront], CF-Ray=[65d4772578a5625f-OTP], X-Amz-Cf-Pop=[OTP50-C1], Connection=[keep-alive], x-amz-version-id=[g0jQbKmpKhlDNDGiQlBRdLWMMF4JErak], Date=[Thu, 10 Jun 2021 17:54:31 GMT], Via=[1.1 09dea2dd1c87c8c74fd1d2996f20ec2d.cloudfront.net (CloudFront)], x-amz-replication-status=[PENDING], CF-Cache-Status=[HIT], Cache-Control=[public, max-age=14400], ETag=["6ef03178d31408500075aa914a6bcf50"], Vary=[Accept-Encoding], x-amz-request-id=[B9HY8SMPY85C8MK9], Expires=[Thu, 10 Jun 2021 21:54:31 GMT], alt-svc=[h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400], x-amz-id-2=[tt1QsnDPE1FRoS0Sm98cZ/JumXj4fEYWTgEQM0eWhtwHidohLC7lqRoULJYRnz4x7LZgt4otCFA=], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]}
+2021-06-10T17:54:31.991Z INFO c.a.u.n.FileDownloaderCache:160 [main] Update cached info of https://downloads.arduino.cc/libraries/library_index.json.sig, createdAt 2021-06-10T20:54:31.916, previous eTag null, last eTag 6ef03178d31408500075aa914a6bcf50, cache control header CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false} 
+2021-06-10T17:54:32.002Z INFO c.a.u.n.FileDownloaderCache:226 [main] Update cache file info in /root/.arduino15/cache/cache.json, number of cached files is 5
+2021-06-10T17:54:32.007Z INFO c.a.u.n.FileDownloader:213 [main] The file in the cache is not in the path or the md5 validation failed: path=/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig, file exist=false, md5 validation=false
+2021-06-10T17:54:32.008Z INFO c.a.u.n.FileDownloader:221 [main] The file is change FileCached{eTag='null', lastETag='6ef03178d31408500075aa914a6bcf50', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.sig', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig', md5='null', createdAt='2021-06-10T20:54:31.992', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}}
+2021-06-10T17:54:32.012Z INFO c.a.u.n.HttpConnectionManager:153 [main] Connect to https://downloads.arduino.cc/libraries/library_index.json.sig, method=GET, request id=A1C9FB0D9FC04150
+2021-06-10T17:54:32.103Z INFO c.a.u.n.HttpConnectionManager:157 [main] Request complete URL="https://downloads.arduino.cc/libraries/library_index.json.sig", method=GET, response code=206, request id=A1C9FB0D9FC04150, headers={null=[HTTP/1.1 206 Partial Content], Server=[cloudflare], Content-Range=[bytes 0-542/543], Last-Modified=[Thu, 10 Jun 2021 16:59:25 GMT], X-Amz-Cf-Id=[xhM4lchGQPOjfYSMieBBntc-KHZ6Gno2eWWF7p-HbG-ptGQnKumB2Q==], Content-Length=[543], Age=[3296], cf-request-id=[0a98a8cbd00000625fcdb20000000001], Content-Type=[application/pgp-signature], X-Cache=[Miss from cloudfront], CF-Ray=[65d477261ad0625f-OTP], X-Amz-Cf-Pop=[OTP50-C1], Connection=[keep-alive], x-amz-version-id=[g0jQbKmpKhlDNDGiQlBRdLWMMF4JErak], Date=[Thu, 10 Jun 2021 17:54:32 GMT], Via=[1.1 09dea2dd1c87c8c74fd1d2996f20ec2d.cloudfront.net (CloudFront)], x-amz-replication-status=[PENDING], CF-Cache-Status=[HIT], Cache-Control=[public, max-age=14400], ETag=["6ef03178d31408500075aa914a6bcf50"], Vary=[Accept-Encoding], x-amz-request-id=[B9HY8SMPY85C8MK9], Expires=[Thu, 10 Jun 2021 21:54:32 GMT], alt-svc=[h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400], x-amz-id-2=[tt1QsnDPE1FRoS0Sm98cZ/JumXj4fEYWTgEQM0eWhtwHidohLC7lqRoULJYRnz4x7LZgt4otCFA=], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]}
+Downloading libraries index... Downloaded 0kb of 0kb.
+Downloading libraries index... Downloaded 0kb of 0kb.
+2021-06-10T17:54:32.106Z INFO c.a.u.n.FileDownloaderCache:343 [main] Update cache file: FileCached{eTag='6ef03178d31408500075aa914a6bcf50', lastETag='6ef03178d31408500075aa914a6bcf50', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.sig', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig', md5='MD5:6ef03178d31408500075aa914a6bcf50', createdAt='2021-06-10T20:54:32.106', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}}
+2021-06-10T17:54:32.121Z INFO c.a.u.n.FileDownloaderCache:226 [main] Update cache file info in /root/.arduino15/cache/cache.json, number of cached files is 5
+2021-06-10T17:54:32.303Z INFO c.a.c.DownloadableContributionsDownloader:227 [main] Signature verified. url=https://downloads.arduino.cc/libraries/library_index.json.sig, signature url=https://downloads.arduino.cc/libraries/library_index.json.sig, file to verify=/tmp/library_index.json3975399524136248133.tmp, signature file=/tmp/library_index.json.sig2075593972199445664.tmp
+Updating list of installed libraries
+Selected library is not available
+[Done] Updated library index files.
+[Starting] Install library - ArduinoJson
+Picked up JAVA_TOOL_OPTIONS: 
+Loading configuration...
+Initializing packages...
+Preparing boards...
+2021-06-10T17:54:49.178Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=58EA86CA6357448B
+Downloading libraries index... 
+2021-06-10T17:54:49.241Z INFO c.a.u.n.FileDownloaderCache:92 [main] Cache folder /root/.arduino15/cache
+2021-06-10T17:54:49.259Z INFO c.a.u.n.FileDownloaderCache:112 [main] Number of file already in the cache 5
+2021-06-10T17:54:49.284Z INFO c.a.u.n.FileDownloaderCache:149 [main] Get file cached is expire false, exist true, info FileCached{eTag='4335f9397e82e8e42d50b7560ed279cb', lastETag='null', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.gz', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz', md5='MD5:4335f9397e82e8e42d50b7560ed279cb', createdAt='2021-06-10T20:54:31.803', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}} 
+2021-06-10T17:54:49.295Z INFO c.a.u.n.FileDownloader:210 [main] No need to download using cached file: FileCached{eTag='4335f9397e82e8e42d50b7560ed279cb', lastETag='null', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.gz', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz', md5='MD5:4335f9397e82e8e42d50b7560ed279cb', createdAt='2021-06-10T20:54:31.803', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}}
+2021-06-10T17:54:49.296Z INFO c.a.u.n.FileDownloader:174 [main] The file will be taken from the cache Optional[/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.gz]
+Downloading libraries index... 
+2021-06-10T17:54:49.413Z INFO c.a.u.n.FileDownloaderCache:149 [main] Get file cached is expire false, exist true, info FileCached{eTag='6ef03178d31408500075aa914a6bcf50', lastETag='null', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.sig', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig', md5='MD5:6ef03178d31408500075aa914a6bcf50', createdAt='2021-06-10T20:54:32.106', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}} 
+2021-06-10T17:54:49.414Z INFO c.a.u.n.FileDownloader:210 [main] No need to download using cached file: FileCached{eTag='6ef03178d31408500075aa914a6bcf50', lastETag='null', remoteURL='https://downloads.arduino.cc/libraries/library_index.json.sig', localPath='/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig', md5='MD5:6ef03178d31408500075aa914a6bcf50', createdAt='2021-06-10T20:54:32.106', cacheControl=CacheControl{maxAge=14400, isMustRevalidate=false, isNoCache=false, isNoStore=false}}
+2021-06-10T17:54:49.414Z INFO c.a.u.n.FileDownloader:174 [main] The file will be taken from the cache Optional[/root/.arduino15/cache/downloads.arduino.cc/libraries/library_index.json.sig]
+2021-06-10T17:54:49.559Z INFO c.a.c.DownloadableContributionsDownloader:227 [main] Signature verified. url=https://downloads.arduino.cc/libraries/library_index.json.sig, signature url=https://downloads.arduino.cc/libraries/library_index.json.sig, file to verify=/tmp/library_index.json1599867272072279092.tmp, signature file=/tmp/library_index.json.sig8676249630034518808.tmp
+Updating list of installed libraries
+2021-06-10T17:54:49.875Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=58EA86CA6357448B, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Thu, 10 Jun 2021 17:54:49 GMT]}
+2021-06-10T17:54:49.876Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Downloading library: ArduinoJson 
+2021-06-10T17:54:49.885Z INFO c.a.u.n.FileDownloaderCache:131 [main] The cache is not enable.
+2021-06-10T17:54:49.887Z INFO c.a.u.n.HttpConnectionManager:153 [main] Connect to https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.18.0.zip, method=GET, request id=2A9BD4B822094C71
+2021-06-10T17:54:49.999Z INFO c.a.u.n.HttpConnectionManager:157 [main] Request complete URL="https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-6.18.0.zip", method=GET, response code=206, request id=2A9BD4B822094C71, headers={null=[HTTP/1.1 206 Partial Content], Server=[cloudflare], Content-Range=[bytes 0-428373/428374], Last-Modified=[Wed, 05 May 2021 19:35:02 GMT], X-Amz-Cf-Id=[Y2X98_0Fc8nYcAlxbLXbWU4HiJxN0Jk363fwQ1taogq884CfANj6iw==], Content-Length=[428374], Age=[634002], cf-request-id=[0a98a911b70000627d0fbc7000000001], Content-Type=[application/zip], X-Cache=[Miss from cloudfront], CF-Ray=[65d47795fce5627d-OTP], X-Amz-Cf-Pop=[OTP50-C1], Connection=[keep-alive], x-amz-version-id=[dQQwu1AiPvWr6d8Be_eJQ.COlnFKyzh1], Date=[Thu, 10 Jun 2021 17:54:49 GMT], Via=[1.1 fd54f037820b9843579c218581936d8d.cloudfront.net (CloudFront)], x-amz-replication-status=[COMPLETED], CF-Cache-Status=[HIT], Cache-Control=[private], ETag=["53125839ffed6717fd6273007665ca0e"], Vary=[Accept-Encoding], x-amz-request-id=[K58V3EZYH8A1Q1TG], alt-svc=[h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400], x-amz-id-2=[pG/ap2db8VzedmeslmUs3nwgz1/ent8uPK9R7n2oHDsSgvMPYuUgNpO4KjY/2bIFBbfOJpXHFfE=], Expect-CT=[max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"]}
+Downloading library: ArduinoJson Downloaded 0kb of 428kb.
+Downloading library: ArduinoJson Downloaded 18kb of 428kb.
+Downloading library: ArduinoJson Downloaded 35kb of 428kb.
+Downloading library: ArduinoJson Downloaded 53kb of 428kb.
+Downloading library: ArduinoJson Downloaded 72kb of 428kb.
+Downloading library: ArduinoJson Downloaded 94kb of 428kb.
+Downloading library: ArduinoJson Downloaded 114kb of 428kb.
+Downloading library: ArduinoJson Downloaded 134kb of 428kb.
+Downloading library: ArduinoJson Downloaded 155kb of 428kb.
+Downloading library: ArduinoJson Downloaded 175kb of 428kb.
+Downloading library: ArduinoJson Downloaded 195kb of 428kb.
+Downloading library: ArduinoJson Downloaded 216kb of 428kb.
+Downloading library: ArduinoJson Downloaded 238kb of 428kb.
+Downloading library: ArduinoJson Downloaded 261kb of 428kb.
+Downloading library: ArduinoJson Downloaded 287kb of 428kb.
+Downloading library: ArduinoJson Downloaded 310kb of 428kb.
+Downloading library: ArduinoJson Downloaded 336kb of 428kb.
+Downloading library: ArduinoJson Downloaded 359kb of 428kb.
+Downloading library: ArduinoJson Downloaded 386kb of 428kb.
+Downloading library: ArduinoJson Downloaded 408kb of 428kb.
+Downloading library: ArduinoJson Downloaded 428kb of 428kb.
+Verifying archive integrity...
+Installing library: ArduinoJson:6.18.0
+Updating list of installed libraries
+[Done] Installed library - ArduinoJson
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 248896          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1556  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1048  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25792 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 283888 bytes to 208063...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (15 %)
+Writing at 0x00008000... (23 %)
+Writing at 0x0000c000... (30 %)
+Writing at 0x00010000... (38 %)
+Writing at 0x00014000... (46 %)
+Writing at 0x00018000... (53 %)
+Writing at 0x0001c000... (61 %)
+Writing at 0x00020000... (69 %)
+Writing at 0x00024000... (76 %)
+Writing at 0x00028000... (84 %)
+Writing at 0x0002c000... (92 %)
+Writing at 0x00030000... (100 %)
+Wrote 283888 bytes (208063 compressed) at 0x00000000 in 4.7 seconds (effective 486.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void handle_app_requests()':
+sketch_feb09a:66:22: error: 'led_pin' was not declared in this scope; did you mean 'led_pin_hot'?
+   66 |         digitalWrite(led_pin, HIGH);
+      |                      ^~~~~~~
+      |                      led_pin_hot
+sketch_feb09a:69:22: error: 'led_pin' was not declared in this scope; did you mean 'led_pin_hot'?
+   69 |         digitalWrite(led_pin, LOW);
+      |                      ^~~~~~~
+      |                      led_pin_hot
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 248896          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1556  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1048  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25792 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 283888 bytes to 208063...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (15 %)
+Writing at 0x00008000... (23 %)
+Writing at 0x0000c000... (30 %)
+Writing at 0x00010000... (38 %)
+Writing at 0x00014000... (46 %)
+Writing at 0x00018000... (53 %)
+Writing at 0x0001c000... (61 %)
+Writing at 0x00020000... (69 %)
+Writing at 0x00024000... (76 %)
+Writing at 0x00028000... (84 %)
+Writing at 0x0002c000... (92 %)
+Writing at 0x00030000... (100 %)
+Wrote 283888 bytes (208063 compressed) at 0x00000000 in 4.7 seconds (effective 480.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:46:8: error: ambiguating new declaration of 'String http_request(char*, char**, int)'
+   46 | String http_request(char* url, char** params, int n){
+      |        ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:15:7: note: old declaration 'char* http_request(char*, char**, int)'
+   15 | char* http_request(char* url, char** params, int n);
+      |       ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:42:18: error: 'null' was not declared in this scope
+   42 |     http_request(null, null, 3);
+      |                  ^~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:46:8: error: ambiguating new declaration of 'String http_request(char*, char**, int)'
+   46 | String http_request(char* url, char** params, int n){
+      |        ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:15:7: note: old declaration 'char* http_request(char*, char**, int)'
+   15 | char* http_request(char* url, char** params, int n);
+      |       ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void ap_active()':
+sketch_feb09a:68:38: error: 'ssid' was not declared in this scope
+   68 |         device_is_host = WiFi.softAP(ssid, psswd) ? 1 : 0;
+      |                                      ^~~~
+sketch_feb09a:68:44: error: 'psswd' was not declared in this scope
+   68 |         device_is_host = WiFi.softAP(ssid, psswd) ? 1 : 0;
+      |                                            ^~~~~
+exit status 1
+IntelliSense configuration updated. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:42:18: error: 'null' was not declared in this scope
+   42 |     http_request(null, null, 3);
+      |                  ^~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void ap_active()':
+sketch_feb09a:68:38: error: 'ssid' was not declared in this scope
+   68 |         device_is_host = WiFi.softAP(ssid, psswd) ? 1 : 0;
+      |                                      ^~~~
+sketch_feb09a:68:44: error: 'psswd' was not declared in this scope
+   68 |         device_is_host = WiFi.softAP(ssid, psswd) ? 1 : 0;
+      |                                            ^~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*, char**, int)':
+sketch_feb09a:50:19: error: call to 'HTTPClient::begin' declared with attribute error: obsolete API, use ::begin(WiFiClient, url)
+   50 |         http.begin("http://jsonplaceholder.typicode.com/users/1");
+      |         ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:11:1: error: 'WifiClient' does not name a type; did you mean 'WiFiClient'?
+   11 | WifiClient wifiClient;
+      | ^~~~~~~~~~
+      | WiFiClient
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*, char**, int)':
+sketch_feb09a:52:20: error: 'wifiClient' was not declared in this scope; did you mean 'WiFiClient'?
+   52 |         http.begin(wifiClient, "http://jsonplaceholder.typicode.com/users/1");
+      |                    ^~~~~~~~~~
+      |                    WiFiClient
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 258356          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1596  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1144  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25824 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 293488 bytes to 214648...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (14 %)
+Writing at 0x00008000... (21 %)
+Writing at 0x0000c000... (28 %)
+Writing at 0x00010000... (35 %)
+Writing at 0x00014000... (42 %)
+Writing at 0x00018000... (50 %)
+Writing at 0x0001c000... (57 %)
+Writing at 0x00020000... (64 %)
+Writing at 0x00024000... (71 %)
+Writing at 0x00028000... (78 %)
+Writing at 0x0002c000... (85 %)
+Writing at 0x00030000... (92 %)
+Writing at 0x00034000... (100 %)
+Wrote 293488 bytes (214648 compressed) at 0x00000000 in 4.9 seconds (effective 482.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:45:5: error: expected ',' or ';' before 'char'
+   45 |     char params[2][5] = {
+      |     ^~~~
+sketch_feb09a:49:23: error: 'params' was not declared in this scope
+   49 |     http_request(url, params, 2);
+      |                       ^~~~~~
+exit status 1
+IntelliSense configuration updated. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:45:5: error: expected ',' or ';' before 'char'
+   45 |     char params[2][5] = {
+      |     ^~~~
+sketch_feb09a:49:23: error: 'params' was not declared in this scope
+   49 |     http_request(url, params, 2);
+      |                       ^~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:53:30: error: expected ',' or '...' before 'url'
+   53 | String http_request(char[30] url, char[2][5] params, int n){
+      |                              ^~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:45:5: error: expected ',' or ';' before 'char'
+   45 |     char params[2][5] = {
+      |     ^~~~
+sketch_feb09a:49:23: error: 'params' was not declared in this scope
+   49 |     http_request(url, params, 2);
+      |                       ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:53:30: error: expected ',' or '...' before 'url'
+   53 | String http_request(char[30] url, char[2][5] params, int n){
+      |                              ^~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*)':
+sketch_feb09a:57:8: error: 'n' was not declared in this scope; did you mean 'yn'?
+   57 |     if(n) strcat(url, "?");
+      |        ^
+      |        yn
+sketch_feb09a:57:18: error: 'url' was not declared in this scope
+   57 |     if(n) strcat(url, "?");
+      |                  ^~~
+sketch_feb09a:58:25: error: 'n' was not declared in this scope
+   58 |     for (int i = 0; i < n; i++){
+      |                         ^
+sketch_feb09a:59:16: error: 'url' was not declared in this scope
+   59 |         strcat(url, params[i]);
+      |                ^~~
+sketch_feb09a:59:21: error: 'params' was not declared in this scope
+   59 |         strcat(url, params[i]);
+      |                     ^~~~~~
+sketch_feb09a:64:20: error: 'url' was not declared in this scope
+   64 |     Serial.println(url);
+      |                    ^~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:53:30: error: expected ',' or '...' before 'url'
+   53 | String http_request(char[30] url, char** params, int n){
+      |                              ^~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:49:5: error: expected ',' or ';' before 'http_request'
+   49 |     http_request(url, params, 2);
+      |     ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:53:30: error: expected ',' or '...' before 'url'
+   53 | String http_request(char[30] url, char** params, int n){
+      |                              ^~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*)':
+sketch_feb09a:57:8: error: 'n' was not declared in this scope; did you mean 'yn'?
+   57 |     if(n) strcat(url, "?");
+      |        ^
+      |        yn
+sketch_feb09a:57:18: error: 'url' was not declared in this scope
+   57 |     if(n) strcat(url, "?");
+      |                  ^~~
+sketch_feb09a:58:25: error: 'n' was not declared in this scope
+   58 |     for (int i = 0; i < n; i++){
+      |                         ^
+sketch_feb09a:59:16: error: 'url' was not declared in this scope
+   59 |         strcat(url, params[i]);
+      |                ^~~
+sketch_feb09a:59:21: error: 'params' was not declared in this scope
+   59 |         strcat(url, params[i]);
+      |                     ^~~~~~
+sketch_feb09a:64:20: error: 'url' was not declared in this scope
+   64 |     Serial.println(url);
+      |                    ^~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:53:30: error: expected ',' or '...' before 'url'
+   53 | String http_request(char[30] url, char** params, int n){
+      |                              ^~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:49:5: error: expected ',' or ';' before 'http_request'
+   49 |     http_request(url, params, 2);
+      |     ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:53:30: error: expected ',' or '...' before 'url'
+   53 | String http_request(char[30] url, char** params, int n){
+      |                              ^~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*)':
+sketch_feb09a:57:8: error: 'n' was not declared in this scope; did you mean 'yn'?
+   57 |     if(n) strcat(url, "?");
+      |        ^
+      |        yn
+sketch_feb09a:57:18: error: 'url' was not declared in this scope
+   57 |     if(n) strcat(url, "?");
+      |                  ^~~
+sketch_feb09a:58:25: error: 'n' was not declared in this scope
+   58 |     for (int i = 0; i < n; i++){
+      |                         ^
+sketch_feb09a:59:16: error: 'url' was not declared in this scope
+   59 |         strcat(url, params[i]);
+      |                ^~~
+sketch_feb09a:59:21: error: 'params' was not declared in this scope
+   59 |         strcat(url, params[i]);
+      |                     ^~~~~~
+sketch_feb09a:64:20: error: 'url' was not declared in this scope
+   64 |     Serial.println(url);
+      |                    ^~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:5: error: expected ',' or ';' before 'http_request'
+   51 |     http_request(url, params, 2);
+      |     ^~~~~~~~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:23: error: cannot convert 'char (*)[5]' to 'char**'
+   51 |     http_request(url, params, 2);
+      |                       ^~~~~~
+      |                       |
+      |                       char (*)[5]
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:39: note:   initializing argument 2 of 'String http_request(char*, char**, int)'
+   18 | String http_request(char* url, char** params, int n);
+      |                                ~~~~~~~^~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:55:42: error: expected ',' or '...' before 'params'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |                                          ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:32: error: no matching function for call to 'http_request(char [30], char [2][10], int)'
+   51 |     http_request(url, params, 2);
+      |                                ^
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:8: note: candidate: 'String http_request(char*, char**, int)'
+   18 | String http_request(char* url, char** params, int n);
+      |        ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:39: note:   no known conversion for argument 2 from 'char [2][10]' to 'char**'
+   18 | String http_request(char* url, char** params, int n);
+      |                                ~~~~~~~^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:55:8: note: candidate: 'String http_request(char*, char**)'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |        ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:55:8: note:   candidate expects 2 arguments, 3 provided
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:55:42: error: expected ',' or '...' before 'params'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |                                          ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*, char**)':
+sketch_feb09a:59:8: error: 'n' was not declared in this scope; did you mean 'yn'?
+   59 |     if(n) strcat(url, "?");
+      |        ^
+      |        yn
+sketch_feb09a:60:25: error: 'n' was not declared in this scope
+   60 |     for (int i = 0; i < n; i++){
+      |                         ^
+sketch_feb09a:61:21: error: 'params' was not declared in this scope
+   61 |         strcat(url, params[i]);
+      |                     ^~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:18:42: error: expected ',' or '...' before 'params'
+   18 | String http_request(char* url, char*[10] params, int n);
+      |                                          ^~~~~~
+sketch_feb09a:55:42: error: expected ',' or '...' before 'params'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |                                          ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:23: error: cannot convert 'char (*)[10]' to 'char**'
+   51 |     http_request(url, params, 2);
+      |                       ^~~~~~
+      |                       |
+      |                       char (*)[10]
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:32: note:   initializing argument 2 of 'String http_request(char*, char**)'
+   18 | String http_request(char* url, char*[10] params, int n);
+      |                                ^~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:55:42: error: expected ',' or '...' before 'params'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |                                          ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*, char**)':
+sketch_feb09a:59:8: error: 'n' was not declared in this scope; did you mean 'yn'?
+   59 |     if(n) strcat(url, "?");
+      |        ^
+      |        yn
+sketch_feb09a:60:25: error: 'n' was not declared in this scope
+   60 |     for (int i = 0; i < n; i++){
+      |                         ^
+sketch_feb09a:61:21: error: 'params' was not declared in this scope
+   61 |         strcat(url, params[i]);
+      |                     ^~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+sketch_feb09a:55:42: error: expected ',' or '...' before 'params'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |                                          ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:32: error: no matching function for call to 'http_request(char [30], char [2][10], int)'
+   51 |     http_request(url, params, 2);
+      |                                ^
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:8: note: candidate: 'String http_request(char*, char**, int)'
+   18 | String http_request(char* url, char *params[10], int n);
+      |        ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:38: note:   no known conversion for argument 2 from 'char [2][10]' to 'char**'
+   18 | String http_request(char* url, char *params[10], int n);
+      |                                ~~~~~~^~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:55:8: note: candidate: 'String http_request(char*, char**)'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |        ^~~~~~~~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:55:8: note:   candidate expects 2 arguments, 3 provided
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: At global scope:
+sketch_feb09a:55:42: error: expected ',' or '...' before 'params'
+   55 | String http_request(char *url, char*[10] params, int n){
+      |                                          ^~~~~~
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'String http_request(char*, char**)':
+sketch_feb09a:59:8: error: 'n' was not declared in this scope; did you mean 'yn'?
+   59 |     if(n) strcat(url, "?");
+      |        ^
+      |        yn
+sketch_feb09a:60:25: error: 'n' was not declared in this scope
+   60 |     for (int i = 0; i < n; i++){
+      |                         ^
+sketch_feb09a:61:21: error: 'params' was not declared in this scope
+   61 |         strcat(url, params[i]);
+      |                     ^~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:23: error: cannot convert 'char (*)[10]' to 'char**'
+   51 |     http_request(url, params, 2);
+      |                       ^~~~~~
+      |                       |
+      |                       char (*)[10]
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:38: note:   initializing argument 2 of 'String http_request(char*, char**, int)'
+   18 | String http_request(char* url, char *params[10], int n);
+      |                                ~~~~~~^~~~~~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino: In function 'void work()':
+sketch_feb09a:51:23: error: cannot convert 'char (*)[10]' to 'char**'
+   51 |     http_request(url, params, 2);
+      |                       ^~~~~~
+      |                       |
+      |                       char (*)[10]
+/home/danb/Desktop/Licenta/HubDev-Diploma/sketch_feb09a/sketch_feb09a.ino:18:39: note:   initializing argument 2 of 'String http_request(char*, char**, int)'
+   18 | String http_request(char* url, char **params, int n);
+      |                                ~~~~~~~^~~~~~
+exit status 1
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Error] Uploading sketch 'sketch_feb09a.ino': Exit with code=1
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 258516          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1596  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1164  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25816 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 293664 bytes to 214775...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (14 %)
+Writing at 0x00008000... (21 %)
+Writing at 0x0000c000... (28 %)
+Writing at 0x00010000... (35 %)
+Writing at 0x00014000... (42 %)
+Writing at 0x00018000... (50 %)
+Writing at 0x0001c000... (57 %)
+Writing at 0x00020000... (64 %)
+Writing at 0x00024000... (71 %)
+Writing at 0x00028000... (78 %)
+Writing at 0x0002c000... (85 %)
+Writing at 0x00030000... (92 %)
+Writing at 0x00034000... (100 %)
+Wrote 293664 bytes (214775 compressed) at 0x00000000 in 4.9 seconds (effective 481.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 258516          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1596  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1164  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25816 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 293664 bytes to 214775...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (14 %)
+Writing at 0x00008000... (21 %)
+Writing at 0x0000c000... (28 %)
+Writing at 0x00010000... (35 %)
+Writing at 0x00014000... (42 %)
+Writing at 0x00018000... (50 %)
+Writing at 0x0001c000... (57 %)
+Writing at 0x00020000... (64 %)
+Writing at 0x00024000... (71 %)
+Writing at 0x00028000... (78 %)
+Writing at 0x0002c000... (85 %)
+Writing at 0x00030000... (92 %)
+Writing at 0x00034000... (100 %)
+Wrote 293664 bytes (214775 compressed) at 0x00000000 in 4.9 seconds (effective 481.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
+[Starting] Uploading sketch 'sketch_feb09a.ino'
+[Warning] Output path is not specified. Unable to reuse previously compiled files. Build will be slower. See README.
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+Executable segment sizes:
+ICACHE : 32768           - flash instruction cache 
+IROM   : 258516          - code in flash         (default or ICACHE_FLASH_ATTR) 
+IRAM   : 28241   / 32768 - code in IRAM          (IRAM_ATTR, ISRs...) 
+DATA   : 1596  )         - initialized variables (global, static) in RAM/HEAP 
+RODATA : 1156  ) / 81920 - constants             (global, static) in RAM/HEAP 
+BSS    : 25824 )         - zeroed variables      (global, static) in RAM/HEAP 
+Uploading...
+esptool.py v3.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 84:f3:eb:73:6e:7d
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 293664 bytes to 214779...
+Writing at 0x00000000... (7 %)
+Writing at 0x00004000... (14 %)
+Writing at 0x00008000... (21 %)
+Writing at 0x0000c000... (28 %)
+Writing at 0x00010000... (35 %)
+Writing at 0x00014000... (42 %)
+Writing at 0x00018000... (50 %)
+Writing at 0x0001c000... (57 %)
+Writing at 0x00020000... (64 %)
+Writing at 0x00024000... (71 %)
+Writing at 0x00028000... (78 %)
+Writing at 0x0002c000... (85 %)
+Writing at 0x00030000... (92 %)
+Writing at 0x00034000... (100 %)
+Wrote 293664 bytes (214779 compressed) at 0x00000000 in 4.9 seconds (effective 482.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+IntelliSense configuration already up to date. To manually rebuild your IntelliSense configuration run "Ctrl+Alt+I"
+[Done] Uploading sketch 'sketch_feb09a.ino'
+
