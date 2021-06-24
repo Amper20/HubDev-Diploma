@@ -1,0 +1,64 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+char s[100] = "GET /setting?dev_id=512Rt&sunrise_start=6.53&day_factor_a=1.2 HTTP/1.1";
+char id[50] = "None";
+
+double power_min = 0, power_max = 500;
+
+double change_period = 0.5;
+double cahnge_factor = change_period/10, day_factor_a = 0.2, day_factor_b = 0.9;
+
+double sunrise_end = 7, sunset_end = 23;
+double sunrise_start = sunrise_end - change_period, sunset_start = sunset_end - change_period;
+
+typedef struct{
+    char key[15];
+    char type[10];
+    void *value;
+} param;
+
+void parse_request(){
+    
+    int param_cnt = 8;
+    param x[10] = {
+        {"power_min", "double", &power_min},
+        {"power_max", "double", &power_max},
+        {"day_factor_a", "double", &day_factor_a},
+        {"day_factor_b", "double", &day_factor_b},
+        {"change_period", "double", &change_period},
+        {"sunrise_end", "double", &sunrise_end},
+        {"sunrise_start", "double", &sunrise_start},
+        {"dev_id", "string", id}
+    };
+    power_min = 1;
+    if(strstr(s, "setting") != NULL){
+        for (int i = 0 ; i < param_cnt; i++){
+            char *key = NULL;
+            if(key = strstr(s, x[i].key)){ // Key matches
+                char value[10];
+                key += strlen(x[i].key) + 1; // skip key and '='
+                for(int j = 0; key && *key != '&' && *key != ' '; j++, key++, value[j] = '\0'){
+                    value[j] = *key;
+                }
+                if(strstr(x[i].type, "double") != NULL ){
+                    char *eptr;
+                    *(double *)(x[i].value) = strtod(value, &eptr); 
+                    cout << "bl";
+                }
+                if(strstr(x[i].type, "int") != NULL ){
+                    *(int *)(x[i].value) = atoi(value); 
+                }
+                if(strstr(x[i].type, "string") != NULL ){
+                    strcpy((char *)x[i].value, value);
+                }
+            }
+        }
+    }
+}
+
+int main(){
+
+    parse_request();
+}
